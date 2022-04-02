@@ -1,3 +1,8 @@
+
+https://gbhackers.com/web-application-penetration-testing-checklist-a-detailed-cheat-sheet/
+
+* * * 
+
 Pentest Search Engines:
 
 * https://www.shodan.io/
