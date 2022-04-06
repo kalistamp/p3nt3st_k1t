@@ -1,4 +1,12 @@
 
+Sub-Domain Enumeration:
+
+https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6
+
+
+* * *
+
+
 https://gbhackers.com/web-application-penetration-testing-checklist-a-detailed-cheat-sheet/
 
 * * * 
