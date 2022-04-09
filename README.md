@@ -2,8 +2,10 @@
 Literature:
 
 https://www.offensity.com/en/blog/just-another-recon-guide-pentesters-and-bug-bounty-hunters/
+
 Sub-Domain Enumeration -
 https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6
+
 Checklist - 
 https://gbhackers.com/web-application-penetration-testing-checklist-a-detailed-cheat-sheet/
 
