@@ -2,7 +2,7 @@
 # Note: If ran as sudo Permissions will default to "Locked"
 
 file.open()
-list.write("""
+file.write("""
 
 Resources:
 
