@@ -1,6 +1,9 @@
 
 Literature:
 
+List of public penetration test reports -
+https://github.com/juliocesarfort/public-pentesting-reports
+
 https://www.offensity.com/en/blog/just-another-recon-guide-pentesters-and-bug-bounty-hunters/
 
 Sub-Domain Enumeration -
