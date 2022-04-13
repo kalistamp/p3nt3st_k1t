@@ -1,4 +1,12 @@
 
+Resources:
+
+Tools, Articles, Manuals, Cheatsheets, etc.(502 links - 47 Categories)
+
+https://github.com/birdbee44/Resources
+
+* * * 
+
 Literature:
 
 List of public penetration test reports -
