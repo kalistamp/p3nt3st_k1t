@@ -1,9 +1,9 @@
 
 Resources:
 
-Tools, Articles, Manuals, Cheatsheets, etc.(502 links - 47 Categories)
+https://github.com/birdbee44/Resources - Tools, Articles, Manuals, Cheatsheets, etc.(502 links - 47 Categories)
+https://github.com/danieldurnea/FBI-tools - Tools for gathering information and actions forensic
 
-https://github.com/birdbee44/Resources
 
 * * * 
 
