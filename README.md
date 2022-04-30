@@ -1,13 +1,12 @@
 
-Resources:
+## Resources:
 
-https://github.com/birdbee44/Resources - Tools, Articles, Manuals, Cheatsheets, etc.(502 links - 47 Categories)
-https://github.com/danieldurnea/FBI-tools - Tools for gathering information and actions forensic
-
+* https://github.com/birdbee44/Resources - Tools, Articles, Manuals, Cheatsheets, etc.(502 links - 47 Categories)
+* https://github.com/danieldurnea/FBI-tools - Tools for gathering information and actions forensic
+* https://github.com/swisskyrepo/PayloadsAllTheThings - A list of useful payloads and bypasses for Web Application Security
 
 * * * 
-
-Literature:
+## Literature:
 
 List of public penetration test reports -
 https://github.com/juliocesarfort/public-pentesting-reports
@@ -22,7 +21,7 @@ https://gbhackers.com/web-application-penetration-testing-checklist-a-detailed-c
 
 * * * 
 
-Pentest Search Engines:
+## Pentest Search Engines:
 
 * https://www.shodan.io/
 * https://fullhunt.io/
