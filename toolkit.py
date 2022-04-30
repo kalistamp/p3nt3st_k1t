@@ -34,7 +34,9 @@ https://github.com/hisxo/gitGraber
 https://github.com/michenriksen/gitrob
 https://github.com/techgaun/github-dorks
 
-TOP Information Gathering Tools:
+TOP Information Gathering Tools: 
+
+http://nibbler.silktide.com - Tool for comprehensive website analysis on more than ten different parameters
 
 Dracnmap - https://github.com/Screetsec/Dracnmap
 Xerosploit - https://github.com/LionSec/xerosploit 
