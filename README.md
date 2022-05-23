@@ -1,4 +1,9 @@
 
+## Nmap:
+start, Port Scan - ``` nmap -p- -A -sC -Pn <ip> ```
+
+* * *
+
 ## Resources:
 
 * https://github.com/birdbee44/Resources - Tools, Articles, Manuals, Cheatsheets, etc.(502 links - 47 Categories)
