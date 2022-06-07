@@ -1,2 +1,14 @@
 Pen-Testing Recon:
 
+Basic recon :
+
+Directory brute forcing
+Subdomain brute forcing
+Web Crawler / Spider
+HTTP Headers
+
+You can also check for Javascript files to find hidden endpoints and assets.
+
+You can also find old links with waybackurls that can reveal more endpoints or information that a developer probably forgot to delete.
+
+Tools: subfinder, dirsearch, hakrawler, burpsuite, waybackurls, linkfinder, ffuf, spyhunt
