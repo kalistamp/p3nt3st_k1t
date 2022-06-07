@@ -1,6 +1,6 @@
 
 ## Nmap:
-start, Port Scan - ``` nmap -p- -A -sC -Pn <ip> ```
+start, Port Scan - ``` nmap -p- -A -sC -Pn <ip> ``` | ``` nmap -F -Pn <ip> ```
 
 * * *
 
