@@ -1,8 +1,41 @@
 
 ## Nmap:
-start, Port Scan - ``` nmap -p- -A -sC -Pn <ip> ``` | ``` nmap -F -Pn <ip> ```
 
+Public & Private IP - ``` ip a ``` | ``` hostename -I ```
+
+Ping - ``` ping <DOMAIN/IP> ```
+
+Scan Host Ports - ``` nmap -Pn <IP> ```
+
+OS Scan - ``` nmap -O <IP> ```
+
+Basic TCP Scan - ``` nmap -sT <IP> ```
+
+Basic UDP Scan - ``` nmap -sU <IP> ```
+
+Fastmode Scan - ``` nmap -F <DOMAIN/IP> ```
+
+Version - ``` nmap -sV <DOMAIN/IP> ```
+
+Aggressive Scan - ``` nmap -A <DOMAIN> ```
+
+Traceroute SCan - ``` --traceroute <DOMAIN/IP> ```
+
+
+255 Scan - ``` nmap 10.0.2.0/24 ```
+
+Save Results - ``` nmap -oS saved.txt <DOMAIN/IP> ```
 * * *
+
+Port Scan - ``` nmap -p- -A -sC -Pn <IP> ``` | ``` nmap -F -Pn <IP> ```
+
+Enum Scan - ``` nmap -sV -sC <IP> ```
+
+Telnet Scan - ``` nmap -A -Pn -p- <IP> ```
+
+
+
+* * * 
 
 ## Resources:
 
