@@ -1,0 +1,55 @@
+
+Bugbounty Github Dorks:
+
+"access_key"
+"access_token"
+"amazonaws"
+"apidocs"
+"api.googlemaps AIza"
+"api_key"
+"apikey"
+"api_secret"
+"apiSecret"
+"app_key"
+"appkey"
+"appkeysecret"
+"application_key"
+"app_secret"
+"appsecret"
+"appspot"
+"auth"
+"authorizationToken"
+"auth_token"
+"aws_access"
+"aws_access_key_id"
+"aws_key"
+"aws_secret"
+"AWSSecretKey"
+"aws_token"
+"bashrc password"
+"bucket_password"
+"client_secret"
+"cloudfront"
+".mlab.com password"
+extension:avastlic support.avast.com
+extension:bat
+extension:cfg
+extension:dbeaver-data-sources.xml
+extension:env
+extension:exs
+extension:ini
+extension:json api.forecast.io
+extension:json googleusercontent client_secret
+extension:json mongolab.com
+extension:pem
+extension:pem private
+extension:ppk
+extension:ppk private
+extension:properties
+extension:sh
+extension:sls
+extension:sql
+extension:sql mysql dump
+extension:sql mysql dump password
+extension:yaml mongolab.com
+extension:zsh
