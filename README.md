@@ -42,6 +42,7 @@ Telnet Scan - ``` nmap -A -Pn -p- <IP> ```
 * [Resources](https://github.com/birdbee44/Resources) - Tools, Articles, Manuals, Cheatsheets, etc.(502 links - 47 Categories)
 * [FBI_Tools](https://github.com/danieldurnea/FBI-tools) - Tools for gathering information and actions forensic
 * [Payloadd_All_Things](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypasses for Web Application Security
+* [mr.d0x](https://mrd0x.com/) | [mr.d0x ~ filesec](https://filesec.io/#)  - Security Blog
 * [Clone_Wars](https://github.com/gorvgoyl/clone-wars) - 100+ open-source clones and alternatives of popular sites 
 
 
