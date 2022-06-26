@@ -12,3 +12,102 @@ You can also check for Javascript files to find hidden endpoints and assets.
 You can also find old links with waybackurls that can reveal more endpoints or information that a developer probably forgot to delete.
 
 Tools: subfinder, dirsearch, hakrawler, burpsuite, waybackurls, linkfinder, ffuf, spyhunt
+
+Proxy
+
+- burpsuite
+- zap proxy
+
+Subdomain
+
+- subfinder
+- assetfinder
+- amass
+- sublist3r
+- dig
+- chaos (http://chaos.projectdiscovery.io)
+
+Webspidering
+
+- gospider 
+- gau
+- linkfinder
+- waybackurls
+- hakrawler
+- paramspider 
+
+Directory/fuzzing 
+
+- ffuf
+- wfuzz
+- gobuster 
+- dirbuster
+
+Fingerprinting 
+
+- wappalyzer
+- builtwith 
+- netcraft 
+- whatweb
+- wafw0f
+
+Vulnerability 
+
+- nuclei
+- wpscan
+- nikto
+
+Email
+
+- mxtoolbox 
+- emkei
+- anonymailer 
+- thunderbird
+
+Exploit
+
+- searchsploit 
+- exploitdb
+
+Sensitive data
+
+- trufflehog 
+- gitsecrets
+Api
+
+- postman
+- graphqlmap 
+
+Payloads/wordlists 
+
+- swisskeyrepo 
+- seclists 
+
+Ports
+
+- nmap 
+- masscan
+- zmap
+- smap
+- hackertarget 
+
+Ssl
+
+- sslscan 
+- sslhopper 
+
+Search Engines 
+
+- shodan
+- censys
+- zoomeye
+- google
+
+Misc
+
+- httpx 
+- metasploit 
+- dnsdumpster 
+- httprobe 
+- recon-ng
+- securitytrails
