@@ -39,6 +39,7 @@ Telnet Scan - ``` nmap -A -Pn -p- <IP> ```
 
 ## Resources:
 
+* [DORKS](https://github.com/cipher387/Dorks-collections-list/blob/main/README.md) - original dorks
 * [Resources](https://github.com/birdbee44/Resources) - Tools, Articles, Manuals, Cheatsheets, etc.(502 links - 47 Categories)
 * [FBI_Tools](https://github.com/danieldurnea/FBI-tools) - Tools for gathering information and actions forensic
 * [Payloadd_All_Things](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypasses for Web Application Security
