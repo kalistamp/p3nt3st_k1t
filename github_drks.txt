@@ -1,4 +1,47 @@
 
+
+There are dozens of tools for automating Google Dorking and collecting search results.
+
+Many of them are based on the python module "googlesearch". 
+
+It is extremely simple. 
+
+But it can be applied to a multitude of investigative purposes. 
+
+You can learn it in two minutes and use it to create the perfect search automation script for your purposes.
+
+1. Installation:
+
+pip install googlesearch-python 
+
+2. Simple search:
+
+from googlesearch import search
+search("Osint")
+
+3. Search with output URL of the results to the console:
+
+for url in search('Osint'):
+    print(url)
+
+4.  Search in Russian:
+
+search('Osint', lang="ru")
+
+5.  Search with a fixed number of results:
+
+search('Osint', num_results=3)
+
+
+The picture above shows an example of search automation with results output to a text file.
+
+https://github.com/MarioVilas/googlesearch
+
+
+
+* * *
+
+
 Bugbounty Github Dorks:
 
 "access_key"
