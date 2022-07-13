@@ -51,6 +51,7 @@ Telnet Scan - ``` nmap -A -Pn -p- <IP> ```
 
 ## Literature:
 
+* [All_About_Bugbounty](https://github.com/daffainfo/AllAboutBugBounty) - Collection of notes about on the most important BugBounty-related topics. Written concisely and succinctly. It can be read in one evening
 * [Public_pentest_reports](https://github.com/juliocesarfort/public-pentesting-reports) - List of public penetration test report
 * [Pentest_Guide](https://www.offensity.com/en/blog/just-another-recon-guide-pentesters-and-bug-bounty-hunters/)
 * [Sub-Domain_Enumeration](https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6)
