@@ -58,7 +58,7 @@ Telnet Scan - ``` nmap -A -Pn -p- <IP> ```
 * [Checklist](https://gbhackers.com/web-application-penetration-testing-checklist-a-detailed-cheat-sheet/)
  
 
-## Pentest Search Engines:
+## Pentest Search Engines: [Huge_Search_Engine_List](https://github.com/edoardottt/awesome-hacker-search-engines)
 
 * https://www.shodan.io/
 * https://fullhunt.io/
