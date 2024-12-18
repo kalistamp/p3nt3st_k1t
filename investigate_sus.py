@@ -39,7 +39,14 @@ class PhishingInvestigator:
             
             # Log Files
             'log.txt', 'logs.txt', 'error_log',
-            'access_log', 'debug.log', 'data.txt'
+            'access_log', 'debug.log', 'data.txt',
+            
+            # Additional Phishing Artifacts
+            'result.php', 'results.php', 'store.php',
+            'save.php', 'handler.php', 'process_login.php',
+            'auth.php', 'authenticate.php', 'validation.php',
+            'proceed.php', 'continue.php', 'processing.php',
+            'account.php', 'secure.php', 'update.php'
         ]
 
     def check_domain(self, line):
@@ -57,7 +64,8 @@ class PhishingInvestigator:
                     r = requests.get(url, timeout=5, verify=False, allow_redirects=True)
                     if r.status_code == 200:
                         # Look for suspicious content
-                        suspicious_terms = ['login', 'password', 'username', 'bank', 'verify']
+                        suspicious_terms = ['login', 'password', 'username', 'bank', 'verify',
+                                         'account', 'secure', 'update', 'confirm', 'wallet']
                         content_match = any(term in r.text.lower() for term in suspicious_terms)
                         
                         return {
@@ -67,7 +75,8 @@ class PhishingInvestigator:
                             'protocol': protocol,
                             'status': r.status_code,
                             'suspicious_content': content_match,
-                            'content_length': len(r.content)
+                            'content_length': len(r.content),
+                            'timestamp': timestamp
                         }
                 except:
                     continue
@@ -94,7 +103,9 @@ class PhishingInvestigator:
                     
                     # Look for interesting content
                     suspicious = False
-                    if any(x in r.text.lower() for x in ['password', 'username', 'login', '$', 'config', 'mysql']):
+                    suspicious_terms = ['password', 'username', 'login', '$', 'config', 
+                                     'mysql', 'database', 'admin', 'bitcoin', 'wallet']
+                    if any(x in r.text.lower() for x in suspicious_terms):
                         suspicious = True
                     
                     findings.append({
@@ -126,16 +137,30 @@ class PhishingInvestigator:
         # Filter active domains
         active_domains = [r for r in results if r]
         
-        print(f"\n[+] Found {len(active_domains)} active domains")
+        # Display summary of active domains first
+        print(f"\n[+] Found {len(active_domains)} active domains:")
+        print("\nInitial Summary:")
+        print("="*80)
+        print(f"{'#':<4} {'Domain':<40} {'Score':<8} {'IP':<15} {'Content':<8}")
+        print("-"*80)
+        for i, domain in enumerate(active_domains, 1):
+            content_indicator = "Yes" if domain.get('suspicious_content', False) else "No"
+            print(f"{i:<4} {domain['domain']:<40} {domain['score']:<8} {domain['ip']:<15} {content_indicator:<8}")
+        print("="*80)
+        
+        # Ask user if they want to proceed with detailed scanning
+        input("\nPress Enter to begin detailed scanning of each domain...")
         
         # Investigate each active domain
-        for domain in active_domains:
-            print(f"\n{'='*60}")
+        for i, domain in enumerate(active_domains, 1):
+            print(f"\n{'='*80}")
+            print(f"Scanning Domain {i}/{len(active_domains)}")
             print(f"Domain: {domain['domain']}")
             print(f"Score: {domain['score']}")
             print(f"IP: {domain['ip']}")
             print(f"Status: {domain['status']}")
             print(f"Initial Content Length: {domain['content_length']}")
+            print(f"Timestamp: {domain['timestamp']}")
             
             # Scan for artifacts
             print("\nScanning for suspicious files and directories...")
