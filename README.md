@@ -1,5 +1,255 @@
 
 
+
+keywords:
+    # Critical Authentication & Security
+    'login': 70
+    'log-in': 70
+    'signin': 70
+    'sign-in': 70
+    'verify': 80
+    'verification': 80
+    'authenticate': 80
+    'authentication': 80
+    'password': 70
+    'credential': 70
+    'authorize': 70
+    'secure-login': 90
+    'verify-account': 90
+    'auth-verify': 90
+    'password-reset': 85
+    'restore-access': 85
+    'account-recovery': 85
+    'suspended': 70
+    'limited': 70
+    'restricted': 70
+    'unusual': 65
+    'suspicious': 65
+
+    # Financial & Cryptocurrency (Modern)
+    'wallet': 85
+    'metamask': 90
+    'opensea': 85
+    'web3': 85
+    'defi': 85
+    'nft': 80
+    'crypto': 85
+    'bitcoin': 85
+    'ethereum': 85
+    'binance': 85
+    'coinbase': 85
+    'kraken': 85
+    'ledger': 85
+    'trezor': 85
+    'blockchain': 85
+    'trustwallet': 85
+    'pancakeswap': 85
+    'uniswap': 85
+    'airdrop': 80
+    'mint': 75
+    'stake': 75
+    'swap': 75
+    'yield': 75
+    
+    # Banking & Payments
+    'bank': 80
+    'chase': 85
+    'wellsfargo': 85
+    'citibank': 85
+    'barclays': 85
+    'santander': 85
+    'hsbc': 85
+    'rbс': 85
+    'llоyds': 85
+    'scotiabank': 85
+    'wise': 80
+    'revolut': 80
+    'venmo': 80
+    'zelle': 80
+    'cashapp': 80
+    'swift': 75
+    'iban': 75
+    'wire': 75
+    'transfer': 75
+    'e-transfer': 80
+
+    # Modern Tech & Services
+    'cloudflare': 85
+    'protonmail': 85
+    'tutanota': 85
+    'signal': 80
+    'telegram': 80
+    'discord': 85
+    'steam': 85
+    'epic': 80
+    'roblox': 80
+    'tiktok': 80
+    'onlyfans': 85
+    'twitch': 80
+    'zoom': 80
+    'teams': 80
+    'slack': 80
+    'azure': 80
+    'aws': 80
+    'docusign': 85
+    'dropbox': 80
+    'wetransfer': 80
+
+    # Delivery & Shopping
+    'shipping': 75
+    'delivery': 75
+    'track': 70
+    'order': 70
+    'package': 70
+    'shipment': 70
+    'usps': 80
+    'fedex': 80
+    'dhl': 80
+    'ups': 80
+    'amazon': 85
+    'walmart': 80
+    'target': 80
+    'ebay': 80
+    'shop': 65
+    'store': 65
+
+    # Government & Services
+    'gov': 85
+    'irs': 90
+    'hmrc': 90
+    'taxref': 85
+    'refund': 80
+    'benefits': 80
+    'stimulus': 85
+    'payment': 80
+    'relief': 75
+    'grant': 75
+    'medicare': 85
+    'medicaid': 85
+    'insurance': 80
+    'claim': 75
+
+    # Technical Patterns
+    'api': 70
+    'auth': 75
+    'oauth': 80
+    'sso': 80
+    'mfa': 80
+    '2fa': 80
+    'webscr': 80
+    'form': 65
+    'portal': 70
+    'access': 70
+    'gateway': 70
+    'cdn': 65
+    'download': 70
+    'upload': 70
+    'redirect': 75
+    'validation': 75
+    'service': 65
+    'support': 65
+    'help': 60
+    'desk': 60
+
+    # Suspicious URL Patterns
+    '-secure-': 75
+    '-verify-': 75
+    '-signin-': 75
+    '-login-': 75
+    '-auth-': 75
+    '-update-': 75
+    '-confirm-': 75
+    '-online-': 70
+    '-official-': 70
+    '-support-': 70
+    'my-': 65
+    '-my-': 65
+    'real-': 65
+    '-real': 65
+    'true-': 65
+    '-true': 65
+    
+tlds:
+    # Newly Observed in Phishing
+    '.top': 40
+    '.xyz': 40
+    '.icu': 40
+    '.buzz': 40
+    '.shop': 35
+    '.site': 35
+    '.online': 35
+    '.store': 35
+    '.cloud': 35
+    '.app': 35
+    '.live': 35
+    '.world': 35
+    '.space': 35
+    '.life': 35
+    '.quest': 35
+    '.homes': 35
+    '.pics': 35
+    '.ink': 35
+    '.bond': 35
+    '.fan': 35
+
+    # Classic High-Risk
+    '.tk': 45
+    '.ga': 45
+    '.ml': 45
+    '.cf': 45
+    '.gq': 45
+    '.ru': 40
+    '.su': 40
+    '.pw': 40
+    '.cc': 40
+    '.biz': 35
+    '.info': 35
+    '.work': 35
+    '.name': 35
+    '.click': 35
+    '.loan': 35
+    '.hair': 35
+    '.mom': 35
+    '.party': 35
+    '.rent': 35
+    '.surf': 35
+    
+    # Emerging Markets (Often Abused)
+    '.br': 30
+    '.cn': 30
+    '.id': 30
+    '.in': 30
+    '.ir': 30
+    '.kr': 30
+    '.mx': 30
+    '.ph': 30
+    '.th': 30
+    '.tr': 30
+    '.ua': 30
+    '.vn': 30
+    '.za': 30
+
+multipliers:
+    'login|verify': 2.0
+    'wallet|connect': 2.0
+    'bank|verify': 2.0
+    'account|secure': 2.0
+    'update|required': 2.0
+    'credential|verify': 2.0
+    'password|reset': 2.0
+    'unusual|activity': 2.0
+    'security|alert': 2.0
+    'payment|confirm': 2.0
+    'crypto|wallet': 2.0
+    'nft|mint': 2.0
+    'delivery|track': 1.8
+    'tax|refund': 2.0
+    'gov|benefit': 2.0
+
+
+***
+***
+
 keywords:
     # Authentication & Verification - Higher weights for combinations
     'login': 35
