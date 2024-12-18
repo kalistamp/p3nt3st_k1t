@@ -1,4 +1,32 @@
 
+suspis.yaml
+
+    '.gb':
+    '.win':
+    '.review':
+    '.vip':
+    '.party':
+    '.tech':
+    '.science':
+    '.business':
+    '.ml':
+    '.cf':
+    '.tk':
+    '.gq':
+    '.ga':
+    '.ru':
+    '.mp3':
+    '.xyz':
+    '.sar':
+    '.cr':
+    '.icu':
+    '.pro':
+    '.top':
+    '.sir':
+
+***
+
+***
 ## Nmap:
 
 Public & Private IP - ``` ip a ``` | ``` hostename -I ```
