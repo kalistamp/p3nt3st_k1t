@@ -1,10 +1,12 @@
 
 
+# Required Python packages
+pip3 install asyncio
+pip3 install aiohttp
+pip3 install requests
 
-CVE-2024-4577_exploit.py
-
-
-
+# Additional system requirements
+apt-get install python3-requests
 
 
 keywords:
