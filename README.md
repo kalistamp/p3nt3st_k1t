@@ -1,4 +1,9 @@
 
+
+
+break down concept in more detail for blue team presentation, provide all expert perspective to best prepare for machine hardening defense and attacker methods so they can be mitigated properly
+
+
 Burp TIP:
 
 1.) Find CIDR
